@@ -1,0 +1,12 @@
+# .gitignore
+
+# Exclude virtual environment
+venv/
+
+# Exclude Python cache
+__pycache__/
+
+node_modules/
+
+.expo/
+
