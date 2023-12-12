@@ -27,6 +27,7 @@ const App = () => {
         quality: 1,
       });
 
+
       if (!result.cancelled) {
         // Send the image to Flask API
         await sendImageToAPI(result);
@@ -43,6 +44,8 @@ const App = () => {
       type: 'image/jpeg', // or 'image/png' based on your needs
       name: 'image.jpg', // or 'image.png'
     });
+
+    
 
     try {
       //const response = await axios.post('http://127.0.0.1:5000/process_image', formData, {
